@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.align-item-center {
+    align-items: center;
+    color: #FC724D;
+}
+
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.box-1 {
+    width: 70px;
+    height: 76px;
+    border-radius: 10px;
+    background-color: #B6D7FF;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0px 13px 19px 0px #00000012;
+    max-width: 237px;
+    height: 292px;
+    padding: 35px 40px 35px 40px;
+    letter-spacing: 0.10000000149011612px;
+
+}
+
+.h1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.jcc {
+    justify-content: center;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.f-c {
+    flex-direction: column;
+}
